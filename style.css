@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+    transition: ease-in-out 0.5s;
+}
+
+/*navigation*/
+
+.nav-container{
+    transition: ease-in-out 0.5s;
+    padding-top: 30%;
+    padding-left: 5%;
+    position: fixed;
+    writing-mode: vertical-lr;
+    text-orientation:sideways;
+    transform: rotate(180deg);
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: white;
+    margin: 5px;
+    transition: ease-in-out 0.5s;
+}
+.active_nav{
+    color: black; 
+}
+
+.nav-links a:hover{
+    color: grey;
+    transition: ease-in-out 0.5s;
+}
+
+/*home*/
+
+.toptext{
+    background: url(images/trevor-brown-YucYLQ6Dm8A-unsplash\ 2.jpg) no-repeat fixed;
+    padding-bottom: 50%;
+    background-size: cover;
+    text-align: center;
+    justify-content: center;
+}
+
+.toptext h1{
+    color: white;
+    padding-top: 20%;
+}
+
+.material-symbols-outlined {
+    color: white;
+    margin-top: 48%;
+    transition: ease-in-out 0.75s;
+}
+.material-symbols-outlined:hover{
+    cursor: pointer;
+    transform: translateY(10px);
+    transition: ease-in-out 0.5s;
+}
+.containertwo{
+    display: grid;
+    gap: 8rem;
+    grid-template-columns: repeat(2, 1fr);
+}
+.cntimg img{
+    width: 90%;
+    margin: 6rem;
+}
+.cnttxt{
+    margin: 6rem;
+    text-align: center;
+}
+.cnttxt h1{
+    padding-bottom: 5%;
+    margin-top: 15%;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+/*work*/
+.containerthree{
+    background-color: black;
+    padding: 20%;
+    transition: transform 2s;
+}
+
+.cntnt-gal img{
+    width: 30%;
+    transition: ease-out 0.5s;
+}
+
+.cntnt-gal img:hover{
+   transform: scale(1.1);
+   
+}
+/*contact*/
+.containerfour{
+    background: url(images/lilly-rum-eE4YBIxSP60-unsplash.jpg) fixed;
+    background-repeat: no-repeat;
+    min-height: 120vh;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    animation: transitionIn 0.75s;
+}
+
+
+
+.containerfour{
+    text-align: center;
+    font-family: 'Playfair Display';
+}
+
+/*footer*/
+
+footer{
+    background-color: black;
+}
+.fter-cnt h1{
+    color: white;
+    font-size: 10px;
+    text-align: center;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    letter-spacing: 2px;
+}
+
+
+.fter-cnt a:visited{
+    color: white;
+}
+
+.fter-cnt a:hover{
+    color: grey;
+}
+@media screen and (max-width: 576px){
+    
+}
+@media screen and (max-width: 1200px){
+    .nav-container{
+        font-size: 8px;
+        letter-spacing: 3px;
+    }
+    .containertwo{
+        display: grid;
+        gap: 1rem;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .cntimg img{
+        width: 50%;
+        margin: 2rem;
+    }
+    .cnttxt{
+        margin: 3rem;
+        text-align: center;
+    }
+    .cnttxt h1{
+        padding-bottom: 1%;
+        margin-top: 5%;
+        letter-spacing: 8px;
+        text-transform: uppercase;
+    }
+    
+   
+  
+    .cnttxt h1{
+        font-size: 15px;
+    }
+    .cnttxt p{
+        font-size: 13px;
+    }
+
+}
+
