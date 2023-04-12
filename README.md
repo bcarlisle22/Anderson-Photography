@@ -1,23 +1,13 @@
 Anderson-Photography
-
 <br>
-<br>
+Photography website mockup
 
-This is a photography website mockup
-
-<br>
-<br>
-
-Created using:
 - HTML
 - CSS
 - Javascript
-<br>
-<br>
-<br>
 
-![](images/ap1.jpg)
-![](images/ap2.jpg)
-![](images/ap3.jpg)
-![](images/ap4.jpg)
-![](images/ap5.jpg)
+![](images/aphoto1.jpg)
+![](images/aphoto2.jpg)
+![](images/aphoto3.jpg)
+![](images/aphoto4.jpg)
+![](images/aphoto5.jpg)
