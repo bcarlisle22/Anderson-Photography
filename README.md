@@ -1,10 +1,10 @@
-Anderson-Photography
+Photography Landing Page 
+<hr>
 <br>
-Photography website mockup
 
-- HTML
-- CSS
-- Javascript
+``HTML`` | ``CSS``
+
+<br>
 
 ![](images/aphoto1.jpg)
 ![](images/aphoto2.jpg)
